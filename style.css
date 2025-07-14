@@ -5,18 +5,15 @@
     box-sizing: border-box;
 }
 
+/* Background Image for the Entire Page */
 body {
-    <style>
-  body {
-    background-image: url("https://raw.githubusercontent.com/jjyylll/Joyal-ll/refs/heads/main/compute-ea4c57a4.avif");
+    background-image: url("https://raw.githubusercontent.com/jjyylll/Joyal-ll/main/compute-ea4c57a4.avif");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    color: white; /* Optional: change text color for contrast */
-  }
-</style>
-
+    color: white; /* Optional: better contrast */
+    font-family: Arial, sans-serif;
 }
 
 /* Navigation Bar */
@@ -35,7 +32,7 @@ body {
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #00ff88;/* Neon green for techy vibe */
+    color: #00ff88; /* Neon green for techy vibe */
 }
 
 .nav-links {
@@ -82,7 +79,7 @@ body {
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    background:  #00ff88;
+    background: #00ff88;
     color: #000000;
     text-decoration: none;
     border-radius: 5px;
@@ -111,7 +108,7 @@ body {
 
 .skills span {
     display: inline-block;
-    background:   #00ff88;
+    background: #00ff88;
     color: #000000;
     padding: 5px 15px;
     margin: 5px;
@@ -128,7 +125,7 @@ body {
 }
 
 .portfolio-item {
-    background:  radial-gradient(circle, rgba(0, 255, 136, 0.1), transparent);
+    background: radial-gradient(circle, rgba(0, 255, 136, 0.1), transparent);
     padding: 20px;
     border-radius: 10px;
     transition: transform 0.3s;
@@ -180,10 +177,15 @@ body {
 
 /* Animation for techy background */
 @keyframes pulse {
-    0% { background: ("https://raw.githubusercontent.com/jjyylll/Joyal-ll/refs/heads/main/compute-ea4c57a4.avif"); }
-    0% { background:  ("https://raw.githubusercontent.com/jjyylll/Joyal-ll/refs/heads/main/compute-ea4c57a4.avif");}
-    0% { background: ("https://raw.githubusercontent.com/jjyylll/Joyal-ll/refs/heads/main/compute-ea4c57a4.avif"); }
-     
+    0% {
+        background: radial-gradient(circle, rgba(0, 255, 136, 0.05), transparent);
+    }
+    50% {
+        background: radial-gradient(circle, rgba(0, 255, 136, 0.2), transparent);
+    }
+    100% {
+        background: radial-gradient(circle, rgba(0, 255, 136, 0.05), transparent);
+    }
 }
 
 /* Responsive Design */
