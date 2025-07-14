@@ -8,7 +8,7 @@
 body {
     <style>
   body {
-    background-image: url('https://raw.githubusercontent.com/jjyylll/Joyal-ll/main/compute-ea4c57a4.avif');
+    background-image: url("https://raw.githubusercontent.com/jjyylll/Joyal-ll/refs/heads/main/compute-ea4c57a4.avif");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -180,9 +180,9 @@ body {
 
 /* Animation for techy background */
 @keyframes pulse {
-    0% { background: ("https://github.com/jjyylll/Joyal-ll/blob/main/compute-ea4c57a4.avif"); }
-    0% { background:  ("https://github.com/jjyylll/Joyal-ll/blob/main/compute-ea4c57a4.avif");}
-    0% { background: ("https://github.com/jjyylll/Joyal-ll/blob/main/compute-ea4c57a4.avif"); }
+    0% { background: ("https://raw.githubusercontent.com/jjyylll/Joyal-ll/refs/heads/main/compute-ea4c57a4.avif"); }
+    0% { background:  ("https://raw.githubusercontent.com/jjyylll/Joyal-ll/refs/heads/main/compute-ea4c57a4.avif");}
+    0% { background: ("https://raw.githubusercontent.com/jjyylll/Joyal-ll/refs/heads/main/compute-ea4c57a4.avif"); }
      
 }
 
