@@ -60,6 +60,25 @@
     <p>📧 Email: <a href="mailto:joyalreji856@gmail.com">joyalreji856@gmail.com</a></p>
     <p>📸 Instagram: <a href="https://www.instagram.com/joyylll?igsh=MXh2OGRIbDRIM21o" target="_blank">@joyylll</a></p>
   </section>
+  <script>
+  let lastScrollTop = 0;
+  const navbar = document.querySelector(".navbar");
+
+  window.addEventListener("scroll", () => {
+    let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (currentScroll > lastScrollTop) {
+      // scrolling down
+      navbar.style.top = "-100px"; // hide
+    } else {
+      // scrolling up
+      navbar.style.top = "0"; // show
+    }
+
+    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+  });
+</script>
+
 
 </body>
 </html>
