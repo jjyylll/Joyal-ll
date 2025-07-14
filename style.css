@@ -26,8 +26,12 @@ body {
   position: fixed;
   width: 100%;
   top: 0;
+  left: 0;
   z-index: 1000;
+  transition: top 0.4s ease;
 }
+
+
 
 .logo {
   font-size: 1.5rem;
@@ -141,7 +145,7 @@ body {
 }
 
 .project-link {
-  color: #000000;
+  color:  #00ff88;
   text-decoration: none;
   font-weight: bold;
 }
