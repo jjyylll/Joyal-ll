@@ -16,7 +16,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Navigation Bar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -28,8 +27,9 @@ body {
   top: 0;
   left: 0;
   z-index: 1000;
-  transition: top 0.4s ease;
+  transition: top 0.3s ease-in-out;
 }
+
 
 
 
@@ -145,7 +145,7 @@ body {
 }
 
 .project-link {
-  color:  #00ff88;
+  color:  #ffffff;
   text-decoration: none;
   font-weight: bold;
 }
