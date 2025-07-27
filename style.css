@@ -143,6 +143,10 @@ body {
   font-size: 1.5rem;
   margin-bottom: 10px;
 }
+.portfolio-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
 
 .project-link {
   color:  #ffffff;
