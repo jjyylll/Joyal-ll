@@ -166,8 +166,8 @@ body {
 /* Footer */
 .footer {
   padding: 40px 5%;
-  background: #ffffff;
-  text-align: right;
+  background: #000000;
+  text-align: center;
 }
 
 .footer a {
