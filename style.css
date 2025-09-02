@@ -5,13 +5,19 @@
   box-sizing: border-box;
 }
 
-/* Default pages */
-body {
-  background: #ffffff; /* white background */
-  color: #000000;      /* dark  text */
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
 }
 
+/* Default page styles */
+body {
+  background: #ffffff;
+  color: #000000;
+  font-family: Arial, sans-serif;
+}
 
+/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -25,9 +31,6 @@ body {
   z-index: 1000;
   transition: top 0.3s ease-in-out;
 }
-
-
-
 
 .logo {
   font-size: 1.5rem;
@@ -51,8 +54,10 @@ body {
   transition: color 0.3s;
 }
 
-.nav-links a:hover {
+.nav-links a:hover,
+.nav-links a:focus {
   color: #00ff88;
+  outline: none;
 }
 
 /* Hero Section */
@@ -63,16 +68,19 @@ body {
   align-items: center;
   text-align: center;
   background: #000000;
+  padding: 0 5%;
 }
 
 .hero-content h1 {
   font-size: 5.5rem;
   margin-bottom: 20px;
+  color: #ffffff;
 }
 
 .hero-content p {
   font-size: 1.2rem;
   margin-bottom: 30px;
+  color: #ffffff;
 }
 
 .cta-button {
@@ -86,8 +94,11 @@ body {
   transition: background 0.3s;
 }
 
-.cta-button:hover {
-  background: #ffffff;
+.cta-button:hover,
+.cta-button:focus {
+  background: #00ff88;
+  color: #000000;
+  outline: none;
 }
 
 /* Sections */
@@ -113,7 +124,7 @@ body {
   margin: 5px;
   border-radius: 20px;
   font-size: 0.9rem;
-   font-weight: bold;
+  font-weight: bold;
 }
 
 /* Portfolio Section */
@@ -125,7 +136,7 @@ body {
 }
 
 .portfolio-item {
-  background:#ffffff;
+  background: #ffffff;
   padding: 20px;
   border-radius: 10px;
   transition: transform 0.3s;
@@ -139,10 +150,6 @@ body {
   font-size: 1.5rem;
   margin-bottom: 10px;
 }
-.portfolio-item h3 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-}
 
 .project-link {
   color: #000000;
@@ -150,21 +157,17 @@ body {
   font-weight: bold;
 }
 
-.project-link {
-  colour: #000000;
-  text-decoration: none;
-  font-weight: bold;
+.project-link:hover,
+.project-link:focus {
+  text-decoration: underline;
+  outline: none;
 }
-.portfolio-item:hover {
-  text-decoration: none;
-}
-
 
 /* Footer */
 .footer {
   padding: 40px 5%;
   background: #ffffff;
-  text-align: right side;
+  text-align: right;
 }
 
 .footer a {
@@ -172,14 +175,25 @@ body {
   text-decoration: none;
 }
 
-.footer a:hover {
+.footer a:hover,
+.footer a:focus {
   text-decoration: underline;
+  outline: none;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
   .hero-content h1 {
     font-size: 2.5rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .cta-button {
+    padding: 8px 16px;
+    font-size: 0.9rem;
   }
 
   .nav-links {
@@ -190,9 +204,5 @@ body {
   .navbar {
     flex-direction: column;
     padding: 10px 5%;
-  }
-
-  .portfolio-grid {
-    grid-template-columns: 1fr;
   }
 }
