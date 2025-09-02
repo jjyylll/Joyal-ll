@@ -5,15 +5,12 @@
   box-sizing: border-box;
 }
 
-/* Background Image for the Entire Page */
+/* Default pages */
 body {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  color: #000000;
-  font-family: Arial, sans-serif;
+  background: #ffffff; /* white background */
+  color: #000000;      /* dark text */
 }
+
 
 .navbar {
   display: flex;
@@ -65,8 +62,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: radial-gradient(circle, rgba(0, 255, 136, 0.1), transparent);
-  animation: pulse 10s infinite ease-in-out;
+  background: #000000;
 }
 
 .hero-content h1 {
@@ -128,7 +124,7 @@ body {
 }
 
 .portfolio-item {
-  background: #000000;
+  background:#ffffff;
   padding: 20px;
   border-radius: 10px;
   transition: transform 0.3s;
@@ -148,7 +144,7 @@ body {
 }
 
 .project-link {
-  color:  #;
+  color: #000000;
   text-decoration: none;
   font-weight: bold;
 }
@@ -177,19 +173,6 @@ body {
 
 .footer a:hover {
   text-decoration: underline;
-}
-
-/* Background animation */
-@keyframes pulse {
-  0% {
-    background: radial-gradient(circle, rgba(0, 255, 136, 0.05), transparent);
-  }
-  50% {
-    background: radial-gradient(circle, rgba(0, 255, 136, 0.2), transparent);
-  }
-  100% {
-    background: radial-gradient(circle, rgba(0, 255, 136, 0.05), transparent);
-  }
 }
 
 /* Responsive Design */
