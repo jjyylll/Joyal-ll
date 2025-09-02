@@ -57,12 +57,12 @@ body {
 
 /* Hero Section */
 .hero {
-  height: 100vh;
+  height: 85vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: #ffffff;
+  background: #000000;
 }
 
 .hero-content h1 {
@@ -78,7 +78,7 @@ body {
 .cta-button {
   display: inline-block;
   padding: 10px 20px;
-  background: #00ff88;
+  background: #ffffff;
   color: #000000;
   text-decoration: none;
   border-radius: 5px;
@@ -113,6 +113,7 @@ body {
   margin: 5px;
   border-radius: 20px;
   font-size: 0.9rem;
+   font-weight: bold;
 }
 
 /* Portfolio Section */
@@ -162,8 +163,8 @@ body {
 /* Footer */
 .footer {
   padding: 40px 5%;
-  background: #111111;
-  text-align: center;
+  background: #ffffff;
+  text-align: right side;
 }
 
 .footer a {
